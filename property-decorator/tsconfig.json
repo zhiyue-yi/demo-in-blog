@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "pretty": true,
+    "target": "es5",
+    "outDir": "dist",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "src/**/*.test.ts"
+  ]
+}
