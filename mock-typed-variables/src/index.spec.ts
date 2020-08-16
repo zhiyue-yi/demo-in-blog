@@ -22,7 +22,7 @@ describe("# calculateTotalPrice", () => {
     expect(calculateTotalPrice(mockOrder as Order)).toBe(true);
   });
 
-  it("should return true if total price matches", () => {
+  it("should return false if total price does not match", () => {
     const mockOrder: RecursivePartial<Order> = {
       items: [
         {
